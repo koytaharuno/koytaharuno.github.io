@@ -65,6 +65,11 @@ nav img {
     justify-content: center;
 }
 
+.box2 {
+    display: flex;
+    justify-content: center;
+}
+
 .box1 label {
     font-weight: 600;
     margin-bottom: 5px
@@ -124,18 +129,19 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
 
 .box2-gallery {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 120px;
+    gap: 125px;
     margin-bottom: 10px;
 }
 
 .box1-gallery img {
-    width: 150px;
+    width: 120px;
 }
 
 .box2-gallery label {
